@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #f1c40f;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: url('https://source.unsplash.com/1600x600/?travel,landscape') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero input {
+    padding: 10px;
+    width: 60%;
+    margin: 10px 0;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    background: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cards {
+    padding: 40px 20px;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .planner-form {
+    background: #f7f7f7;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .planner-form form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .planner-form input,
+  .planner-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .planner-form button {
+    padding: 12px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+  }
+  .auth input, .auth button, .add-destination input, .add-destination textarea, .planner-form input, .planner-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .auth, .add-destination, .itinerary, #mapSection {
+    padding: 30px 20px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  iframe {
+    margin-top: 20px;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  #tripSummary {
+    margin-top: 20px;
+    padding: 15px;
+    background: #dff0d8;
+    border-left: 5px solid #3c763d;
+  }
+    
